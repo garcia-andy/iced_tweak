@@ -1,0 +1,8 @@
+[package]
+name = "iced_tweak"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", version = "0.13.0-dev" }
+inline_tweak = { version = "1.1.1", features = ["derive"] }
